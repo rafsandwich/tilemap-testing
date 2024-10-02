@@ -244,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: topDown_baseTiles_7
+      name: Plant_06
       rect:
         serializedVersion: 2
         x: 112
@@ -12985,6 +12985,7 @@ TextureImporter:
       Plant_03: 861084835
       Plant_04: -2010651354
       Plant_05: -1364653486
+      Plant_06: 1662998783
       topDown_baseTiles_0: -998896374
       topDown_baseTiles_1: 1193839155
       topDown_baseTiles_10: -1472220043
@@ -13539,7 +13540,6 @@ TextureImporter:
       topDown_baseTiles_67: 1512716535
       topDown_baseTiles_68: 2006198282
       topDown_baseTiles_69: 1455090681
-      topDown_baseTiles_7: 1662998783
       topDown_baseTiles_70: 2137730777
       topDown_baseTiles_71: 135505097
       topDown_baseTiles_72: 2128275636
