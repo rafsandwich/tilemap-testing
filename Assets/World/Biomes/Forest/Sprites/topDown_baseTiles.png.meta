@@ -3646,7 +3646,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Island_Bottom
+      name: Island_Bottom_A
       rect:
         serializedVersion: 2
         x: 112
@@ -12948,6 +12948,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_B
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faddc9269710c6f44bb8c2284f58c8ad
+      internalID: 2026391386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -12968,9 +12989,10 @@ TextureImporter:
       Grass_04: 1777276181
       Grass_05: -1373459545
       Grass_Base: 1181367283
-      Island_Bottom: 1064381935
       Island_BottomLeft: -1219812842
       Island_BottomRight: 263246550
+      Island_Bottom_A: 1064381935
+      Island_Bottom_B: 2026391386
       Island_Inner_BottomLeft: -425361755
       Island_Inner_BottomRight: 2033637451
       Island_Inner_TopLeft: -1857247304
