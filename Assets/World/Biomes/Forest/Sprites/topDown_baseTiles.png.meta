@@ -5053,7 +5053,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: topDown_baseTiles_236
+      name: Waves_A
       rect:
         serializedVersion: 2
         x: 144
@@ -5074,7 +5074,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: topDown_baseTiles_237
+      name: Waves_B
       rect:
         serializedVersion: 2
         x: 160
@@ -12999,7 +12999,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13052,6 +13052,8 @@ TextureImporter:
       Plant_05: -1364653486
       Plant_06_A: 1662998783
       Plant_06_B: 476410246
+      Waves_A: 1062749574
+      Waves_B: -1263093207
       topDown_baseTiles_0: -998896374
       topDown_baseTiles_1: 1193839155
       topDown_baseTiles_10: -1472220043
@@ -13190,8 +13192,6 @@ TextureImporter:
       topDown_baseTiles_230: -1337141932
       topDown_baseTiles_231: 2048442747
       topDown_baseTiles_232: 1829898798
-      topDown_baseTiles_236: 1062749574
-      topDown_baseTiles_237: -1263093207
       topDown_baseTiles_238: -1611706341
       topDown_baseTiles_239: 160772720
       topDown_baseTiles_24: 28452405
