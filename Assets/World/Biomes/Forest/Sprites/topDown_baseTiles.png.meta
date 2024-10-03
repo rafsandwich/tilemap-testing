@@ -244,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant_06
+      name: Plant_06_A
       rect:
         serializedVersion: 2
         x: 112
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant_03
+      name: Plant_03_A
       rect:
         serializedVersion: 2
         x: 80
@@ -12957,7 +12957,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12965,6 +12965,48 @@ TextureImporter:
       bones: []
       spriteID: faddc9269710c6f44bb8c2284f58c8ad
       internalID: 2026391386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_06_B
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf1ddec6f5b1cf478b6537fda0b7f38
+      internalID: 476410246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_03_B
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c7debfbd4615740aba20ba0337ff6a
+      internalID: -1383984905
       vertices: []
       indices: 
       edges: []
@@ -13004,10 +13046,12 @@ TextureImporter:
       Island_right: 64307627
       Plant_01: 1970902429
       Plant_02: 1717299826
-      Plant_03: 861084835
+      Plant_03_A: 861084835
+      Plant_03_B: -1383984905
       Plant_04: -2010651354
       Plant_05: -1364653486
-      Plant_06: 1662998783
+      Plant_06_A: 1662998783
+      Plant_06_B: 476410246
       topDown_baseTiles_0: -998896374
       topDown_baseTiles_1: 1193839155
       topDown_baseTiles_10: -1472220043
