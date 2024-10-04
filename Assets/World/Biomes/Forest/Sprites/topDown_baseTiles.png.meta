@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant_02
+      name: Plant_02_A
       rect:
         serializedVersion: 2
         x: 96
@@ -13011,6 +13011,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Plant_02_B
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1008
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c565a727fce764d937c95d3f64939f
+      internalID: -11495692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -13045,7 +13066,8 @@ TextureImporter:
       Island_TopRight: 660847639
       Island_right: 64307627
       Plant_01: 1970902429
-      Plant_02: 1717299826
+      Plant_02_A: 1717299826
+      Plant_02_B: -11495692
       Plant_03_A: 861084835
       Plant_03_B: -1383984905
       Plant_04: -2010651354
