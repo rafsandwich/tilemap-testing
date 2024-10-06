@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] SpriteRenderer spriteRenderer;
 
+    private readonly int animMoveRight = Animator.StringToHash("Anim_Player_Move_Right");
+    private readonly int animIdleRight = Animator.StringToHash("Anim_Player_Idle_Right");
+
 
     private Vector2 moveDir = Vector2.zero; //where player wishes to move based on input
     private Directions facingDirection = Directions.RIGHT;
@@ -72,6 +75,15 @@ public class PlayerController : MonoBehaviour
         else if (facingDirection == Directions.RIGHT)
         {
             spriteRenderer.flipX = false;
+        }
+
+        if (moveDir.SqrMagnitude() > 0) // if player is moving
+        {
+            animator.CrossFade(animMoveRight, 0); // 0 is duration, snapping fine for pixel art
+        }
+        else
+        {
+            animator.CrossFade(animIdleRight, 0);
         }
     }
 }
