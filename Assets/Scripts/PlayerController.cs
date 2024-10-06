@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
         moveDir.x = Input.GetAxisRaw("Horizontal");
         moveDir.y = Input.GetAxisRaw("Vertical");
 
-        Debug.Log(moveDir);
+        //Debug.Log(moveDir);
     }
 
     private void MovementUpdate()
